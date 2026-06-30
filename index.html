@@ -1,101 +1,112 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Fashion Store</title>
-    <link rel="stylesheet" href="fashion.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Hub</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+    <!-- Header -->
     <header>
-        <div class="logo">Fashion Store</div>
-
+        <div class="logo">Fashion<span>Hub</span></div>
 
         <nav>
-            <a href="#">Home</a>
-            <a href="#">Men</a>
-            <a href="#">Women</a>
-            <a href="#">New Arrivals</a>
-            <a href="#">Contact</a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Collections</a></li>
+                <li><a href="#">Designers</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
         </nav>
     </header>
 
-    <section class="banner">
-        <h1>New Fashion Collection</h1>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="content">
+            <h1>Discover Your Style</h1>
+            <p>
+                Explore the latest fashion trends with premium quality
+                clothing designed for elegance and confidence.
+            </p>
+
+            <button>Explore Collection</button>
+        </div>
     </section>
 
-    <h2>Men's Collection</h2>
+    <!-- Collection Section -->
+    <section class="collection">
 
-    <div class="products">
-        <div class="card">
-            <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSS9DE_MY4Lcvyzla2h8-mzW85MoHPs-W8HIKwFfWeYdrmUopLNsvGXs7svZnXVbBkQwfll2HmiSWucKgUsajazlNaj4OUuPU9HaXEv9eHXF0I_28qgf3pwKvJFvDgBPKpC_38&usqp=CAc"
-                alt="image1">
-            <h3>Men Shirt</h3>
-            <p>₹999</p>
-            <button>Buy Now</button>
+        <h2>Featured Collections</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=600" alt="">
+                <h3>Women's Collection</h3>
+                <p>Elegant dresses for every occasion.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600" alt="">
+                <h3>Men's Collection</h3>
+                <p>Modern fashion with premium comfort.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=600" alt="">
+                <h3>Accessories</h3>
+                <p>Complete your look with trendy accessories.</p>
+            </div>
+
         </div>
 
-        <div class="card">
-            <img src="https://images.meesho.com/images/products/284602901/ar2ca_512.avif?width=360" alt="image2">
-            <h3>T-Shirt</h3>
-            <p>₹799</p>
-            <button>Buy Now</button>
+    </section>
+
+    <!-- About -->
+    <section class="about">
+
+        <div class="about-text">
+            <h2>About FashionHub</h2>
+
+            <p>
+                FashionHub is a modern fashion brand offering stylish,
+                comfortable and premium quality clothing. We believe fashion
+                is a way to express your personality.
+            </p>
+
         </div>
 
-        <div class="card">
-            <img src="https://images.meesho.com/images/products/530939993/zjqs5_512.avif?width=360" alt="image3">
-            <h3>Jeans</h3>
-            <p>₹1299</p>
-            <button>Buy Now</button>
-        </div>
-    </div>
+    </section>
 
-    <h2>Women's Collection</h2>
+    <!-- Contact -->
+    <section class="contact">
 
-    <div class="products">
-        <div class="card">
-            <img src="https://images.meesho.com/images/products/879613680/muh1w_512.avif?width=512" alt="image4">
-            <h3>Kurti</h3>
-            <p>₹1199</p>
-            <button>Buy Now</button>
-        </div>
+        <h2>Contact Us</h2>
 
-        <div class="card">
-            <img src="https://images.meesho.com/images/products/560000075/93sbm_512.avif?width=512" alt="image5">
-            <h3>Top</h3>
-            <p>₹899</p>
-            <button>Buy Now</button>
-        </div>
+        <form>
 
-        <div class="card">
-            <img src="https://images.meesho.com/images/products/568640988/avu3m_512.avif?width=360" alt="image6">
-            <h3>T-shirt</h3>
-            <p>₹900</p>
-            <button>Buy Now</button>
-        </div>
-    </div>
+            <input type="text" placeholder="Your Name">
 
-    <h2>New Arrivals</h2>
+            <input type="email" placeholder="Your Email">
 
-    <div class="products">
-        <div class="card">
-            <img src="https://images.meesho.com/images/products/602987444/jnuqo_512.avif?width=360" alt="image7">
-            <h3>Jacket</h3>
-            <p>₹1999</p>
-            <button>Buy Now</button>
-        </div>
+            <textarea placeholder="Your Message"></textarea>
 
-        <div class="card">
-            <img src="https://images.meesho.com/images/products/424436900/jxarf_512.avif?width=512" alt="image8">
-            <h3>Fashion Wear</h3>
-            <p>₹1799</p>
-            <button>Buy Now</button>
-        </div>
-    </div>
+            <button>Send Message</button>
 
+        </form>
+
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>©️ 2026 Fashion Store | All Rights Reserved</p>
+
+        <p>© 2026 FashionHub | Designed with ❤️ using HTML & CSS</p>
+
     </footer>
 
 </body>
